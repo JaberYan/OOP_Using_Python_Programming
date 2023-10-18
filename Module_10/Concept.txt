@@ -1,0 +1,21 @@
+all class :
+1.user: base class(ABC)
+2.customer(user)
+3.employee(user)
+4.chef(employee)
+5.server(employee)
+6.manager(employee)
+7.cleaner(employee)
+8.sumpplier(user)
+9.marketer(user)
+
+food_item:
+1.food_item : base class
+2.pizza(food_item)
+3.burger(food_item)
+4.drinks(food_item)
+5.juice(food_item)
+6.salad(food_item)
+7.beef(food_item)
+8.chicken(food_item)
+9.muton(food_item)

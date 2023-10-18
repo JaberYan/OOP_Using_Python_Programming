@@ -1,0 +1,7 @@
+1. simple inheritance : parent class-->derived class (gadget class-->phone)
+
+2.multi_levle_inheritance : grandma --> father -->child
+
+3.multiple inheritance : sturdent(family,shcool,sports)
+
+4.hybrid inheritance : father, uncle ,aunty -->child(father,uncle)

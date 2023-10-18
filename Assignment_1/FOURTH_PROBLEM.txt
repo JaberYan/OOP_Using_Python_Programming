@@ -1,0 +1,26 @@
+                                        *args
+The *args syntax allows a function to accept an arbitrary number of positional arguments. When you use *args in a function definition, it collects any extra positional arguments into a tuple. You can then iterate over this tuple to process the values.
+
+def add_numbers(*args):
+    result = 0
+    for num in args:
+        result += num
+    return result
+
+sum_result = add_numbers(1, 2, 3, 4, 5)
+print(sum_result)
+#Output: 15
+
+                                        *kwargs
+The **kwargs syntax allows a function to accept an arbitrary number of keyword arguments. These keyword arguments are collected into a dictionary, where the keys are the argument names and the values are the corresponding values.
+
+def display_info(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}:{value}")
+
+display_info(name="Jaber", age=18, country="Bangladesh")
+
+#Output:
+name: Jaber
+age: 18
+country: Bangladesh

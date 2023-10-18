@@ -1,0 +1,8 @@
+highest=max(23,4,5,6,7,8,8,9)
+lowest=min(23,4,5,6,7,8,8,9)
+size=len([1,2,3,4,5,5])
+total=sum([1,2,3,4,5,5])
+print(highest)
+print(lowest) 
+print(size)
+print(total)

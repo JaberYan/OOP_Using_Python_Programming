@@ -1,0 +1,1 @@
+<__main__.CPU object at 0x000001D1FF534AD0> <__main__.RAM object at 0x000001D1FF3B4A90> <__main__.HardWare object at 0x000001D1FF534B10>
